@@ -19,7 +19,7 @@ Peacemax is a multi-page wellness website designed to promote mindfulness, relax
 
 * HTML5
 * CSS3
-* Basic JavaScript (if used)
+* Basic JavaScript
 
 ---
 
