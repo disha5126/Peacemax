@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css">
+    <!--fontsss-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,300..700;1,300..700&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--favicon-->
+        <link rel="icon" type="image/x-icon" href="images\Peacemaxlogo.png">
+    <!--script-->
+    <script>
+        function validate()
+        {
+           var f=document.getElementById("fname").value;
+           var l=document.getElementById("sname").value;
+           if(f=="")
+           {
+            alert("empty fields not allowed");
+            document.getElementById("fname").focus();
+           }
+           if(l=="")
+           {
+            alert("empty fields not allowed");
+            document.getElementById("sname").focus();
+           }
+           var con=document.getElementById("num").value;
+            if(isNaN(con) || con.length<10)
+            {
+            alert("not valid data");
+            }
+            else
+            {
+                alert("valid contact number and name");
+            }
+        }
+    </script>
+
+    </script>    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="images\Peacemaxlogo.png" class="logo">
+            <p class="logo2">Peacemax</p>
+            <nav class="nav-bar">
+                <a href="blog.html" class="nav-item">Blog</a>
+                <a href="shop.html" class="nav-item">Shop</a>
+                <a href="workwithus.html" class="nav-item">Work with Us</a>
+                <a href="program.html" class="nav-item">Programs</a>
+                <a href="index.html" class="nav-item">Home</a>
+            </nav>
+        </div>
+        <div class="sec">
+            <form id="forms" class="forms">
+                <label for="fname" name="name1" class="labels">Enter first name:</label>
+                <input type="text" id="fname" name="name"><br><br>
+
+                <label for="sname" name="name1" class="labels">Enter last name:</label>
+                <input type="text" id="sname" name="name"><br><br>
+
+                <label for="num" name="number" class="labels">Enter your phone no:</label>
+                <input type="text" id="num" name="number"><br><br>
+
+                <label for="gen" name="gender" class="labels">Select your gender:</label><br>
+                <input type="radio" name="gender" id="gen" value="Male">Male</input><br>
+                <input type="radio" name="gender" id="gen" value="Female">Female</input><br>
+                <input type="radio" name="gender" id="gen" value="Other">Other</input><br><br>
+
+                <label for="reas" name="reason" class="labels">Select your query</label><br>
+                <input type="checkbox" name="reason" id="reas" value="Volunteer">Volunteer</input><br>
+                <input type="checkbox" name="reason" id="reas" value="Apply">Apply</input><br>
+                <input type="checkbox" name="reason" id="reas" value="Programs">Programs</input><br>
+                <input type="checkbox" name="reason" id="reas" value="Others"></input>Others<br><br>
+
+                <label for="add" name="addr" class="labels">Enter your address</label><br>
+                <input type="text" name="addr" id="addrs"><br>
+                <input type="text" name="addr" id="addrs"><br><br>
+
+                <label for="add" name="addr" class="labels">Enter your zipcode</label><br>
+                <input type="text" name="addr" id="add"><br><br>
+
+                <button type="reset" class="button">Reset</button>
+                <br>
+                <button type="submit" class="button" onclick="validate()">Submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p class="par2">peacemax@gmail.com</p>
+            <p class="par2">1234567890</p>
+            <p class="par2">&COPY All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>        

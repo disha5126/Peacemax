@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <!--fontsss-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,300..700;1,300..700&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--favicon-->
+        <link rel="icon" type="image/x-icon" href="images\Peacemaxlogo.png">
+    <!--script--> 
+    <script>
+        function scale(x)
+        {
+            x.style.height="300px";
+            x.style.width="300px";
+        }
+        function shrink(x)
+        {
+            x.style.height="250px";
+            x.style.width="250px";
+        }
+    </script>      
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="images\Peacemaxlogo.png" class="logo">
+            <p class="logo2">Peacemax</p>
+            <nav class="nav-bar">
+                <a href="blog.html" class="nav-item">Blog</a>
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="workwithus.html" class="nav-item">Work with us</a>
+                <a href="program.html" class="nav-item">Programs</a>
+                <a href="contact-us.html" class="nav-item">Contact Us</a>
+            </nav>
+        </div>
+        <div class="shop">
+            <p class="p1">Shop from us...</p>
+            <table class="shop-table">
+                <tr class="shop-row">
+                    <td class="shop-cell">
+                        <img src="images\blankets.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Meditation blankets</p>
+                    </td>
+                    <td class="shop-cell">
+                        <img src="images\buddha.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Picture of Buddha</p>
+                    </td>
+                    <td class="shop-cell" >
+                        <img src="images\candles.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Scented candles</p>
+                    </td>
+                </tr>
+                <tr class="shop-row">
+                    <td class="shop-cell">
+                        <img src="images\mala.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Mala</p>
+                    </td>
+                    <td class="shop-cell">
+                        <img src="images\essential-oils.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Essential oils for Aromatherapy</p>
+                    </td>
+                    <td class="shop-cell">
+                        <img src="images\incense-sticks.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Incense Sticks</p>
+                    </td>
+                </tr>
+                <tr class="shop-row">
+                    <td class="shop-cell">
+                        <img src="images\couch.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Meditation couch</p>
+                    </td>
+                    <td class="shop-cell">
+                        <img src="images\plant.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Plants for your meditation room</p>
+                    </td>
+                    <td class="shop-cell">
+                        <img src="images\soundbowl.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Ohm sound bowl</p>
+                    </td>
+                </tr>
+                <tr class="shop-row">
+                    <td class="shop-cell">
+                        <img src="images\incense-holder.png" class="shop-item" onmouseover="scale(this)" onmouseout="shrink(this)">
+                        <p class="shop-des">Incense stick holder</p>
+                    </td>
+                    <td class="shop-cell"></td>
+                    <td class="shop-cell"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <p class="par2">peacemax@gmail.com</p>
+            <p class="par2">1234567890</p>
+            <p class="par2">&COPY All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>         

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.pr1
+{
+    color: #E4D9FF;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1
+{
+    height: 5px;
+    width: 70%;
+    background-color: #333333;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plans
+{
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-1
+{
+    height: 150px;
+    width: 250px;
+    border: 2px solid #E4D9FF;
+    border-radius: 20%;
+    margin: 0px 10px;
+    padding: 30px;
+}
+.pr2
+{
+    color: #FFBFB7;
+    font-family: Merienda;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pr3
+{
+    color: #333333;
+    font-family: Merienda;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gotopay
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gotopay:link , .gotopay:visited
+{
+    height: 100px;
+    width: 150px;
+    background-color: #333333;
+    color: #FFFEED;
+    font-size: 20px;
+    font-family: Arsenal;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 30%;
+    margin: 50px 0px 0px 0px;
+    text-decoration: none;
+}
+.gotopay:hover , .gotopay:active
+{
+    color: #333333;
+    background-color: #FFBFB7;
+    transition: 1s ease-in-out all;
+}

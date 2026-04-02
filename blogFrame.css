@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #FFFEED;
+}
+.par
+{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: #333333;
+}
+.topic
+{
+    font-family: Arsenal;
+    font-size: 30px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+.head1
+{
+    color: #FFBFB7;
+    font-family: Merienda;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.p1
+{
+    font-family: Merienda;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
