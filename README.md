@@ -1,17 +1,43 @@
 # 🌿 Peacemax – Meditation & Wellness Platform
 
-Peacemax is a multi-page wellness website designed to promote mindfulness, relaxation, and mental well-being. It provides users with informative blogs, calming features, and a clean, distraction-free interface.
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Type](https://img.shields.io/badge/type-web%20project-blue)
+![Tech](https://img.shields.io/badge/tech-HTML%20%7C%20CSS-orange)
+
+---
+
+## 📌 Overview
+
+Peacemax is a multi-page wellness website designed to promote mindfulness, relaxation, and mental well-being.
+
+It provides users with calming content, structured blog navigation, and a clean, distraction-free interface focused on enhancing user experience.
+
+---
+
+## 🔗 Live Demo
+
+https://disha5126.github.io/Peacemax/
 
 ---
 
 ## ✨ Features
 
 * 🧘‍♀️ Meditation & wellness blog content
-* 📚 Multiple blog pages with smooth navigation
-* 🧩 Iframe-based dynamic content loading
+* 📚 Multi-page blog system with iframe-based navigation
+* 🧩 Dynamic content loading without full page refresh
 * 🎨 Clean and minimal UI design
 * 📞 Contact page for user interaction
-* 🧠 Focus and calm-based sections
+* 🧠 Dedicated focus and calm sections
+
+---
+
+## 🧩 My Contribution
+
+* Designed and developed the complete front-end structure
+* Implemented iframe-based dynamic navigation system
+* Created multiple interconnected blog pages
+* Structured UI for a calm and distraction-free experience
+* Focused on consistent design and user-friendly layout
 
 ---
 
@@ -25,7 +51,7 @@ Peacemax is a multi-page wellness website designed to promote mindfulness, relax
 
 ## 📁 Project Structure
 
-```
+```id="4x2kpl"
 peacemax/
 │── index.html
 │── blog.html
@@ -40,25 +66,16 @@ peacemax/
 
 ## 🚀 How to Run Locally
 
-1. Download or clone the repository
+1. Clone or download the repository
 2. Open the project folder
 3. Open `index.html` in your browser
 
 ---
 
-## 🌐 Deployment
-
-This project can be deployed using GitHub Pages.
-
----
-
 ## ⚠️ Notes
 
-* All file paths are relative for compatibility
-* The `.vs` folder is excluded using `.gitignore`
+* Uses iframe-based navigation for dynamic content display
+* All file paths are relative for deployment compatibility
 * Designed as a front-end project (no backend integration)
 
 ---
-
-## 🔗 Live Demo
-https://disha5126.github.io/Peacemax/
