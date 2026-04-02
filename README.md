@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 ![Type](https://img.shields.io/badge/type-web%20project-blue)
-![Tech](https://img.shields.io/badge/tech-HTML%20%7C%20CSS-orange)
+![Tech](https://img.shields.io/badge/tech-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
 
 ---
 
@@ -37,7 +37,7 @@ https://disha5126.github.io/Peacemax/
 * Implemented iframe-based dynamic navigation system
 * Created multiple interconnected blog pages
 * Structured UI for a calm and distraction-free experience
-* Focused on consistent design and user-friendly layout
+* Applied basic JavaScript for interactivity
 
 ---
 
@@ -45,13 +45,13 @@ https://disha5126.github.io/Peacemax/
 
 * HTML5
 * CSS3
-* Basic JavaScript
+* JavaScript (Basic)
 
 ---
 
 ## 📁 Project Structure
 
-```id="4x2kpl"
+```id="h2k9sl"
 peacemax/
 │── index.html
 │── blog.html
@@ -77,5 +77,3 @@ peacemax/
 * Uses iframe-based navigation for dynamic content display
 * All file paths are relative for deployment compatibility
 * Designed as a front-end project (no backend integration)
-
----
